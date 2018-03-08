@@ -1,9 +1,9 @@
-* {
+/* * {
     outline: 1px solid red !important;
-   }
+   } */
 
 header {
-    height: 100px;
+    height: 60px;
     }
 
 li{
@@ -12,25 +12,39 @@ li{
 
 #head {
 color: white;
-font-size: 45px;
+font-size: 65px;
 text-align: center;
 height: 100px;  
+font-family: 'Shadows Into Light', cursive;
+    }
+
+button {
+    font-family: 'Just Another Hand', cursive;
+    background-color: red;
+    font-size: 35px;
+    width: 100px;
+    color: white;
+    border-color: black;
+    margin-bottom: 2%;
+    margin-left: 42%;
     }
 
 #question {
     color: white;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 25px;
+    line-height: 35px;
     text-align: center;
     height: 100px;
+    font-family: 'Love Ya Like A Sister', cursive;
     }
 
 #pic {
     color: white;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 30px;
+    line-height: 50px;
     text-align: center;
     height: 40px;
+    font-family: 'Love Ya Like A Sister', cursive;
     }
 
 #endgame {
@@ -39,8 +53,13 @@ height: 100px;
     line-height: 50px;
     text-align: center;
     height: 40px;
+    font-family: 'Love Ya Like A Sister', cursive;
+    /* margin-left: 25%; */
     }
 
+.hover {
+    background-color: red;
+}
     
 #questimer {
     width: 100%;
@@ -55,7 +74,7 @@ img {
 }
 
 #quesbar {
-    background-color: blue;
+    background-color: red;
     width: 10px;
     height: 30px;
     position: absolute;
@@ -63,16 +82,20 @@ img {
 
 #answerchoices {
     color: white;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 25px;
+    line-height: 35px;
     text-align: center;
     height: 250px;
+    font-family: 'Love Ya Like A Sister', cursive;
     }
 
 body {
-    /* background-image: url("http://thewallpaper.co/wp-content/uploads/2017/08/free-images-art-space-desktop-imagesouter-abstract-wallpapers-digital-full-screen-khloros-smart-phones-ios-mobile-wallpaper.jpg"); */
+    background-image: url("https://media.giphy.com/media/7mrxy3zVc72yk/giphy.gif");
     background-repeat: no-repeat;
     background-color: black;
+    background-position: 50%;
     height: 100%;
     width: 100%;    
     }
+
+    
