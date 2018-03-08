@@ -20,99 +20,99 @@ var questionlist = [
         ca: "Snape",
         image:"<img src=https://media.giphy.com/media/HNoY8sztGOryE/giphy.gif>",
         image2: "<img src=https://media.giphy.com/media/i8tL4unehxmvu/giphy.gif>",
-    }
-    // {
-    //     q:"What is the name of the ghost who haunts the girl's bathroom?",
-    //     a: ["The Wailing Widow", "Moaning Myrtle", "The Grey Lady", "The Fat Friar"],
-    //     ca: "Moaning Myrtle" ,
-    //     image:"<img src=https://media.giphy.com/media/PXvCWUnmqVdks/giphy.gif>",
-    //     image2: "<img src=https://media.giphy.com/media/720g7C1jz13wI/giphy.gif>",
-    // },
-    // {
-    //     q: "Where is Sirius Black hiding in the Prisoner of Azkaban?",
-    //     a: ["A Cave", "Grimmauld Place", "Hogwarts", "He Is Not Hideing"],
-    //     ca: "He Is Not Hideing",
-    //     image:"<img src=https://media.giphy.com/media/fKcvTanp70dEc/giphy.gif>",
-    //     image2: "<img src=https://media.giphy.com/media/12nfFCZA0vyrSw/giphy.gif>",
-    // }, 
-    // {
-    //     q: "Who or what attacks Ron in the Ministry of Magic?",
-    //     a: ["Bellatrix", "Snape", "He Who Shall Not Be Named", "Dolohov"],
-    //     ca: "Snape",
-    //     image:"<img src=https://media.giphy.com/media/11MrXbrzSEZBKM/giphy.gif>",
-    //     image2: "<img src=https://media.giphy.com/media/unZIP5hDMveIU/giphy.gif>",
-    // }, 
+    },
+    {
+        q:"What is the name of the ghost who haunts the girl's bathroom?",
+        a: ["The Wailing Widow", "Moaning Myrtle", "The Grey Lady", "The Fat Friar"],
+        ca: "Moaning Myrtle" ,
+        image:"<img src=https://media.giphy.com/media/PXvCWUnmqVdks/giphy.gif>",
+        image2: "<img src=https://media.giphy.com/media/720g7C1jz13wI/giphy.gif>",
+    },
+    {
+        q: "Where is Sirius Black hiding in the Prisoner of Azkaban?",
+        a: ["A Cave", "Grimmauld Place", "Hogwarts", "He Is Not Hideing"],
+        ca: "He Is Not Hideing",
+        image:"<img src=https://media.giphy.com/media/fKcvTanp70dEc/giphy.gif>",
+        image2: "<img src=https://media.giphy.com/media/12nfFCZA0vyrSw/giphy.gif>",
+    }, 
+    {
+        q: "Who or what attacks Ron in the Ministry of Magic?",
+        a: ["Bellatrix", "Snape", "He Who Shall Not Be Named", "Dolohov"],
+        ca: "Snape",
+        image:"<img src=https://media.giphy.com/media/11MrXbrzSEZBKM/giphy.gif>",
+        image2: "<img src=https://media.giphy.com/media/unZIP5hDMveIU/giphy.gif>",
+    }, 
     
-    // {
-    //     q:"What village do Harry and Dumbledore visit to find Slughorn?",
-    //     a: ["Grodric's Hollow", "Little Whinging", "Budleigh Babberton", "Ottery St. Catchpole"],
-    //     ca: "Grodric's Hollow",
-    //     image:"<img src=https://media.giphy.com/media/wFf9JmAwPuyxW/giphy.gif>",
-    //     image2: "<img src=https://media.giphy.com/media/WTTdbXlefU6vS/giphy.gif>",
-    // },
-    // {
-    //     q: "What did Dumbledore leave in his will for Ron?",
-    //     a: ["Horcruxe", "The sowrd of Gryffindor", "Deluminator", "Telescope"],
-    //     ca: "Deluminator",
-    //     image:"<img src=https://media.giphy.com/media/ZqaUbgzQiaOli/giphy.gif>",
-    //     image2: "<img src=https://media.giphy.com/media/vb7YYpLs9RvR6/giphy.gif>",
-    // }, 
-    // {
-    //     q:"How many Horcruxes does Dumbledore think Voldemort has (not including the piece in Voldemort himself)?",
-    //     a: ["5", "6", "7", "9"],
-    //     ca: "7",
-    //     image:"<img src=https://media.giphy.com/media/B2ZldWbH24vcY/giphy.gif>",
-    //     image2: "<img src=https://media.giphy.com/media/SKp7ZpRP4a8iQ/giphy.gif>",
-    // },
-    // {
-    //     q:"What do Ron and Hermione name their kids?",
-    //     a: ["Jean and Bilius", "Scorpis and Sarah", "Rose and Hugo", "Albus and Severus"],
-    //     ca: "Albus and Severus",
-    //     image:"<img src=https://media.giphy.com/media/O1lbWlwZilQo8/giphy.gif>",
-    //     image2: "<img src=https://media.giphy.com/media/tpwwhv1BLd31e/giphy.gif>",
-    // },
-    // {
-    //     q:"What is Hermione's middle name?",
-    //     a: ["Weasley", "Jean", "Sara", "Linda"],
-    //     ca: "Jean",
-    //     image:"<img src=https://media.giphy.com/media/UXKy7mHAZ5Mqc/giphy.gif>",
-    //     image2: "<img src=https://media.giphy.com/media/NoBXm9gmqzx96/giphy.gif>",
-    // },
-    // {
-    //     q:"Who said it:'He held his head high and went about buisness as usual. I'm not sure he could read, though, so I'm not sure that was bravery'.",
-    //     a: ["Snape", "Dumbeldore", "Bellatrix", "McGonagall"],
-    //     ca: "Dumbeldore",
-    //     image:"<img src=https://media.giphy.com/media/hMMfRc0lGq5bi/giphy.gif>",
-    //     image2: "<img src=https://media.giphy.com/media/rvMQcARjST01W/giphy.gif>",
-    // },
-    // {
-    //     q:"If she was not put in Gryffindor, what house would Hermione Granger probably be in?",
-    //     a: ["Expelled", "Slytherin", "Ravenclaw", "Hufflepuff"],
-    //     ca: "Hufflepuff",
-    //     image:"<img src=https://media.giphy.com/media/P5ow2yhkqzkuA/giphy.gif>",
-    //     image2: "<img src=https://media.giphy.com/media/SqF8NUfOXiJ2M/giphy.gif>",
-    // },
-    // {
-    //     q:"Who in the 3rd year class wrote an essay on werewolves?",
-    //     a: ["Harry", "Ron", "Herminone", "Authur"],
-    //     ca: "Herminone",
-    //     image:"<img src=https://media.giphy.com/media/6CI9XdbgiqgWA/giphy.gif>",
-    //     image2: "<img src=https://media.giphy.com/media/pWBTO0wk9Pb5C/giphy.gif>",
-    // },
-    // {
-    //     q:"What are the creatures who suck the soul out of people called?",
-    //     a: ["Dementors", "Azkaban", "Quidditch", "Griffindor"],
-    //     ca: "Dementors",
-    //     image:"<img src=https://media.giphy.com/media/RB0VCenCDzthm/giphy.gif>",
-    //     image2: "<img src=https://media.giphy.com/media/aNdy0Kv7CJ5kY/giphy.gif>",
-    // },
-    // {
-    //     q:"Who is also known as Padfoot?",
-    //     a: ["Petter Pettigrew", "Malfoy", "Tom Riddle", "Sirius"],
-    //     ca: "Sirius",
-    //     image:"<img src=https://media.giphy.com/media/lb3u7UalT5q1O/giphy.gif>",
-    //     image2: "<img src=https://media.giphy.com/media/wfclQPOIU1DyM/giphy.gif>",
-    // }
+    {
+        q:"What village do Harry and Dumbledore visit to find Slughorn?",
+        a: ["Grodric's Hollow", "Little Whinging", "Budleigh Babberton", "Ottery St. Catchpole"],
+        ca: "Grodric's Hollow",
+        image:"<img src=https://media.giphy.com/media/wFf9JmAwPuyxW/giphy.gif>",
+        image2: "<img src=https://media.giphy.com/media/WTTdbXlefU6vS/giphy.gif>",
+    },
+    {
+        q: "What did Dumbledore leave in his will for Ron?",
+        a: ["Horcruxe", "The sowrd of Gryffindor", "Deluminator", "Telescope"],
+        ca: "Deluminator",
+        image:"<img src=https://media.giphy.com/media/ZqaUbgzQiaOli/giphy.gif>",
+        image2: "<img src=https://media.giphy.com/media/vb7YYpLs9RvR6/giphy.gif>",
+    }, 
+    {
+        q:"How many Horcruxes does Dumbledore think Voldemort has (not including the piece in Voldemort himself)?",
+        a: ["5", "6", "7", "9"],
+        ca: "7",
+        image:"<img src=https://media.giphy.com/media/B2ZldWbH24vcY/giphy.gif>",
+        image2: "<img src=https://media.giphy.com/media/SKp7ZpRP4a8iQ/giphy.gif>",
+    },
+    {
+        q:"What do Ron and Hermione name their kids?",
+        a: ["Jean and Bilius", "Scorpis and Sarah", "Rose and Hugo", "Albus and Severus"],
+        ca: "Albus and Severus",
+        image:"<img src=https://media.giphy.com/media/O1lbWlwZilQo8/giphy.gif>",
+        image2: "<img src=https://media.giphy.com/media/tpwwhv1BLd31e/giphy.gif>",
+    },
+    {
+        q:"What is Hermione's middle name?",
+        a: ["Weasley", "Jean", "Sara", "Linda"],
+        ca: "Jean",
+        image:"<img src=https://media.giphy.com/media/UXKy7mHAZ5Mqc/giphy.gif>",
+        image2: "<img src=https://media.giphy.com/media/NoBXm9gmqzx96/giphy.gif>",
+    },
+    {
+        q:"Who said it:'He held his head high and went about buisness as usual. I'm not sure he could read, though, so I'm not sure that was bravery'.",
+        a: ["Snape", "Dumbeldore", "Bellatrix", "McGonagall"],
+        ca: "Dumbeldore",
+        image:"<img src=https://media.giphy.com/media/hMMfRc0lGq5bi/giphy.gif>",
+        image2: "<img src=https://media.giphy.com/media/rvMQcARjST01W/giphy.gif>",
+    },
+    {
+        q:"If she was not put in Gryffindor, what house would Hermione Granger probably be in?",
+        a: ["Expelled", "Slytherin", "Ravenclaw", "Hufflepuff"],
+        ca: "Hufflepuff",
+        image:"<img src=https://media.giphy.com/media/P5ow2yhkqzkuA/giphy.gif>",
+        image2: "<img src=https://media.giphy.com/media/SqF8NUfOXiJ2M/giphy.gif>",
+    },
+    {
+        q:"Who in the 3rd year class wrote an essay on werewolves?",
+        a: ["Harry", "Ron", "Herminone", "Authur"],
+        ca: "Herminone",
+        image:"<img src=https://media.giphy.com/media/6CI9XdbgiqgWA/giphy.gif>",
+        image2: "<img src=https://media.giphy.com/media/pWBTO0wk9Pb5C/giphy.gif>",
+    },
+    {
+        q:"What are the creatures who suck the soul out of people called?",
+        a: ["Dementors", "Azkaban", "Quidditch", "Griffindor"],
+        ca: "Dementors",
+        image:"<img src=https://media.giphy.com/media/RB0VCenCDzthm/giphy.gif>",
+        image2: "<img src=https://media.giphy.com/media/aNdy0Kv7CJ5kY/giphy.gif>",
+    },
+    {
+        q:"Who is also known as Padfoot?",
+        a: ["Petter Pettigrew", "Malfoy", "Tom Riddle", "Sirius"],
+        ca: "Sirius",
+        image:"<img src=https://media.giphy.com/media/lb3u7UalT5q1O/giphy.gif>",
+        image2: "<img src=https://media.giphy.com/media/wfclQPOIU1DyM/giphy.gif>",
+    }
   ];
 
     var question="";
@@ -134,8 +134,8 @@ var questionlist = [
     var movebar;
     var unanswered = 0;
 
-  console.log(JSON.parse(JSON.stringify(questionlist)));
-  console.log("++++++++++++++++++++++++++++++");
+//   console.log(JSON.parse(JSON.stringify(questionlist)));
+//   console.log("++++++++++++++++++++++++++++++");
 //   console.log(JSON.parse(JSON.stringify(questionlist.ca)));
 
     //start game 
@@ -172,6 +172,7 @@ var questionlist = [
             ("#quesbar").show;
             for (i=0; i < questionlist.length; i++ ) {
                 runques(i);
+                console.log(runques);
             }
         }
 
@@ -202,14 +203,9 @@ var questionlist = [
                 $("#answer2").text(b);
                 $("#answer3").text(c);
                 $("#answer4").text(d);
-                console.log("test: "+ test);
-                console.log("wrong: "+ wrong);
-                console.log("right: "+ correctanswers);
-                console.log("unanswered: "+ unanswered);
-                console.log("++++++++++++++++++++++++++++++++");
             }, 5000 * index);
         };           
-
+        
     //choose answers 
 
         $("#answerchoices").on("click","div", function (){
@@ -227,11 +223,6 @@ var questionlist = [
                 newrow.append(correctmessage, image);
                 holder.append(newrow);
                 correctanswers ++;
-                console.log("test: "+ test);
-                console.log("wrong: "+ wrong);
-                console.log("right: "+ correctanswers);
-                console.log("unanswered: "+ unanswered);
-                console.log("++++++++++++++++++++++++++++++++");
                 }   
 
             else if (selectedanswer != correct && clickon){
@@ -247,35 +238,26 @@ var questionlist = [
                 newrow.append(wrongmessage, image2);
                 holder.append(newrow);
                 wrong ++;
-                console.log("test: "+ test);
-                console.log("wrong: "+ wrong);
-                console.log("right: "+ correctanswers);
-                console.log("unanswered: "+ unanswered);
-                console.log("++++++++++++++++++++++++++++++++");
                 }
 
 
     //end game 
             setTimeout(function (endgame) {
-                if (((wrong+correctanswers)+unanswered) >= 2){
+                if (((wrong+correctanswers)+unanswered) == 15){
                     $("#questimer").hide();
                     $("#question").hide();
                     $("#answerchoices").hide();
                     $("#pic").hide();
                     $("#endgame").show();
-                    var gameendholder = $("#endgame");
-                    // var newrow = $("<div class='row'>");
                     var gameover = $("<div class='row'>").text("Game Over");
-                    // var numcorrect = $("<div class='row'>").text("Number Correct: " + correctanswers);
-                    // var numwrong = $("<div class='row'>").text("Number Wrong: " + wrong);
-                    // var numunanswered = $("<div class='row'>").text("Number Unaswered: " + unanswered);
-                    // var endgameimg = $("<div class='row'>").html("<img src =https://media.giphy.com/media/gbErpwcLlizvi/giphy.gif>");
-                    // gameendholder.append(newrow);
-                    gameendholder.append(gameover);
+                    var numcorrect = $("<div class='row'>").text("Number Correct: " + correctanswers);
+                    var numwrong = $("<div class='row'>").text("Number Wrong: " + wrong);
+                    var numunanswered = $("<div class='row'>").text("Number Unaswered: " + unanswered);
+                    var endgameimg = $("<div class='row'>").html("<img src =https://media.giphy.com/media/gbErpwcLlizvi/giphy.gif>");
                     $("#restart").show();
-                    clearInterval(endgame);
+                    $("#endgame").append(gameover, numcorrect,numwrong,numunanswered,endgameimg);
                 }
-            }, 8000);
+            }, 4999); 
         });
 
 
