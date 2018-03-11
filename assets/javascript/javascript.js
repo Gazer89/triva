@@ -133,6 +133,7 @@ var questionlist = [
     var clickon;
     var movebar;
     var unanswered = 0;
+    var quesnum; 
 
 //   console.log(JSON.parse(JSON.stringify(questionlist)));
 //   console.log("++++++++++++++++++++++++++++++");
@@ -172,12 +173,13 @@ var questionlist = [
             ("#quesbar").show;
             for (i=0; i < questionlist.length; i++ ) {
                 runques(i);
-                console.log(runques);
+                console.log("test in i forloop: " + test);
             }
         }
 
         function runques (index) {
-            setTimeout(function () {
+             setTimeout(function () {
+                console.log("index: " + index);
                 selectedanswer = false;
                 clickon = true;
                 barmove();
@@ -203,7 +205,12 @@ var questionlist = [
                 $("#answer2").text(b);
                 $("#answer3").text(c);
                 $("#answer4").text(d);
-            }, 5000 * index);
+                quesnum = index;
+                if (quesnum == 14){
+                setTimeout(endgame, 5001)
+                }
+            }, 5000 * index)
+            
         };           
         
     //choose answers 
@@ -239,28 +246,25 @@ var questionlist = [
                 holder.append(newrow);
                 wrong ++;
                 }
-
-
+            });
+    
     //end game 
-            setTimeout(function (endgame) {
-                if (((wrong+correctanswers)+unanswered) == 15){
-                    $("#questimer").hide();
-                    $("#question").hide();
-                    $("#answerchoices").hide();
-                    $("#pic").hide();
-                    $("#endgame").show();
-                    var gameover = $("<div class='row'>").text("Game Over");
-                    var numcorrect = $("<div class='row'>").text("Number Correct: " + correctanswers);
-                    var numwrong = $("<div class='row'>").text("Number Wrong: " + wrong);
-                    var numunanswered = $("<div class='row'>").text("Number Unaswered: " + unanswered);
-                    var endgameimg = $("<div class='row'>").html("<img src =https://media.giphy.com/media/gbErpwcLlizvi/giphy.gif>");
-                    $("#restart").show();
-                    $("#endgame").append(gameover, numcorrect,numwrong,numunanswered,endgameimg);
-                }
-            }, 4999); 
-        });
-
-
+        function endgame (){
+            
+            $("#questimer").hide();
+            $("#question").hide();
+            $("#answerchoices").hide();
+            $("#pic").hide();
+            $("#endgame").show();
+            var gameover = $("<div class='row'>").text("Game Over");
+            var numcorrect = $("<div class='row'>").text("Number Correct: " + correctanswers);
+            var numwrong = $("<div class='row'>").text("Number Wrong: " + wrong);
+            var numunanswered = $("<div class='row'>").text("Number Unaswered: " + unanswered);
+            var endgameimg = $("<div class='row'>").html("<img src =https://media.giphy.com/media/gbErpwcLlizvi/giphy.gif>");
+            $("#restart").show();
+            $("#endgame").append(gameover, numcorrect,numwrong,numunanswered,endgameimg);
+            
+        }
       
     //barmove(start/stop);
         function barmove (){
@@ -277,6 +281,7 @@ var questionlist = [
                     width ++;
                     getelement.style.width = width + '%' ;
                     }
+
                 }
             }
 
